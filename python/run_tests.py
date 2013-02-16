@@ -42,9 +42,9 @@ import sys, traceback
 import test_suite
 
 
-#RADIO_DEV_NAME  = '/dev/tty.usbserial-*' or 'COMx'
+RADIO_DEV_NAME  = '/dev/tty.usbserial-A700ePgy'
 RADIO_BAUD_RATE = 230400
-RADIO_DEST_ADDR = '\x01\x10'
+RADIO_DEST_ADDR = '\x11\x02'
 
 def main():
     ts = test_suite.TestSuite(RADIO_DEV_NAME,            \

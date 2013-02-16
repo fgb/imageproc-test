@@ -8,13 +8,13 @@
 #define __RADIO_SETTINGS_H
 
 
-#define RADIO_MY_CHAN         0x20
+#define RADIO_MY_CHAN         0x16
 
-#define RADIO_PAN_ID          0x0000
-#define RADIO_DEST_ADDR       0x0100 // orange basestation
-#define RADIO_SRC_ADDR        0x0110
+#define RADIO_PAN_ID          0x1100
+#define RADIO_DEST_ADDR       0x1101
+#define RADIO_SRC_ADDR        0x1102
 
-#define RADIO_TXPQ_MAX_SIZE   30
+#define RADIO_TXPQ_MAX_SIZE   40
 #define RADIO_RXPQ_MAX_SIZE   10
 
 
